@@ -13,3 +13,22 @@ if (count == 0) {
 } else {
   console.log(`В данном массиве ${count} чисел кратных 3`);
 }
+
+// task HW1.2.2
+//считает с ошибкой, результат меньше на 1......
+
+var array = [45, "246", 73, "4", 15, 36, 17, 89, "49", 167, 123];
+var count = 0;
+var i = 0
+
+while (i++ < array.length) {
+  if (typeof array[i] === "number" && array[i] % 3 == 0) {
+    ++count;
+  }
+}
+
+if (count == 0) {
+  console.log(`В данном массиве нет чисел кратных 3`);
+} else {
+  console.log(`В данном массиве ${count} чисел кратных 3`);
+}
