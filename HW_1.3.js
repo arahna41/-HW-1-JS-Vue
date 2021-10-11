@@ -22,8 +22,6 @@ function calcElementsDifferentTypes() {
   }
 }
 
-calcElementsDifferentTypes()
-
 function showResult() {
   console.log(`String: ${str} `)
   console.log(`Number: ${num} `)
@@ -31,3 +29,6 @@ function showResult() {
   console.log(`Null: ${nul} `)
   console.log(`Object: ${obj} `)
 }
+
+calcElementsDifferentTypes()
+showResult()
