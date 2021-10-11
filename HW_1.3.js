@@ -1,10 +1,10 @@
-var array = [16, true, "MetraBit", NaN, { name: "UserName;", hobby: "JS" }, 30, NaN, null, false, "Vue"];
+var array = [16, true, "MetraBit", NaN, { name: "UserName;", hobby: "JS" }, 30, NaN, null, false, "Vue"]
 
-var str = 0;
-var num = 0;
-var bool = 0;
-var nul = 0;
-var obj = 0;
+var str = 0
+var num = 0
+var bool = 0
+var nul = 0
+var obj = 0
 
 function calcElementsDifferentTypes() {
   for (var i = 0; i < array.length; i++) {
@@ -22,12 +22,12 @@ function calcElementsDifferentTypes() {
   }
 }
 
-calcElementsDifferentTypes();
+calcElementsDifferentTypes()
 
 function showResult() {
-  console.log(`String: ${str} `);
-  console.log(`Number: ${num} `);
-  console.log(`Boolean: ${bool} `);
-  console.log(`Null: ${nul} `);
-  console.log(`Object: ${obj} `);
+  console.log(`String: ${str} `)
+  console.log(`Number: ${num} `)
+  console.log(`Boolean: ${bool} `)
+  console.log(`Null: ${nul} `)
+  console.log(`Object: ${obj} `)
 }
