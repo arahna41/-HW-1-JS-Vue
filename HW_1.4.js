@@ -3,7 +3,7 @@ var greetings = 'Hello'
 
 //Function Declaration
 function HelloUser() {
-    console.log(`${greetings}, ${firstName}!`)
+    return (`${greetings}, ${firstName}!`)
 }
 
 HelloUser()
@@ -13,7 +13,7 @@ var firstName = 'UserName'
 var greetings = 'Hello'
 
 var HelloUser = function() {
-    console.log(`${greetings}, ${firstName}!`)
+    return (`${greetings}, ${firstName}!`)
 }
 
 HelloUser()
